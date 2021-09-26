@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #1a0dab;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 80%;
+	margin: auto;
+}
+
+header {
+	margin-bottom: 2rem;
+}
+
+table {
+	width: 80%;
+}
+
+table,
+th,
+tr, 
+td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, 
+td {
+	padding: 1rem 1rem;
+}
+
+/* form */
+.form-group {
+	margin-bottom: 2rem;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.form-group input {
+	padding: 0.4rem 0.4rem;
+	font-size: 1rem;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+/* Btn */
+.btn {
+	width: 200px;
+	height: 60px;
+	padding: 0.5rem 0.3rem;
+	border: none;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: opacity 0.6s ease;
+	margin-bottom: 1rem;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-secondary {
+	background-color: orange;
+	color: white;
+}
+
+/* Util */
+.py-1 {
+	padding: 1rem 0;
+}
+
+.lead {
+	font-size: 1.1rem;
+}
+
+.text-center {
+	text-align: center;
+}
